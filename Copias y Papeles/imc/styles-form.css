@@ -1,0 +1,40 @@
+h1
+{
+    font-size: 30px;
+    color: rgb(230, 48, 28);
+}
+h4{
+    font-size: 20px;
+    color: rgb(230, 48, 28);
+
+}
+
+body{
+
+    background-image: url("../img/fondo-salud.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-position: center center;
+    background-attachment: fixed;
+    /*background-size: 100rem*/
+   
+    
+}
+
+.container-form{
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.container-form p{
+    color: #0c9d80;
+}
