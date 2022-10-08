@@ -3,8 +3,6 @@ const h1 = document.querySelector("h1");
 const form = document.querySelector('#form');
 const input1 = document.querySelector("#peso");
 const input2 = document.querySelector("#estatura");
-//const btn = document.querySelector("#btnCalcular");
-//const btnexit = document.querySelector("#salir");
 const result = document.querySelector("#result");
 
 
