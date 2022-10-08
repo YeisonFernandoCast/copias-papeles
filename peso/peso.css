@@ -14,7 +14,6 @@ body{
     background-image: url("../img/planetass.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    
     background-position: center center;
     background-attachment: fixed;
     /*background-size: 100rem*/
@@ -24,7 +23,7 @@ body{
 
 .container-form{
     border: 1px solid #999;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #f2f2f2;
     max-width: 50%;
     margin: 0 auto;

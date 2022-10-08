@@ -4,14 +4,14 @@ h1
     color: rgb(230, 48, 28);
 }
 h4{
-    font-size: 20px;
-    color: rgb(230, 48, 28);
+    font-size: 17px;
+    color: #0c9d80;
 
 }
 
 body{
 
-    background-image: url("../img/imc.jpg");
+    background-image: url("../img/convertir.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
