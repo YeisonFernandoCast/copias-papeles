@@ -349,6 +349,7 @@ nav {
 .numbers .number p {
     color: #f2f5fc;
     font-weight: 300;
+    text-align:start
 }
 
 .results-text {
@@ -356,14 +357,15 @@ nav {
 }
 
 .results-text h4 {
-    color: var(--red-color);
+    color: var(--green-color);
     font-size: 40px;
 }
 
 .results-text p {
-    color: var(--red-color);
+    color: var(--green-color);
     font-weight: 300;
     margin: 20px 0;
+    text-align: justify;
 }
 
 
@@ -398,6 +400,7 @@ nav {
 }
 
 /* FOOTER */
+
 footer{
     background: var(--green-color);
     padding-bottom: 0.5px;
@@ -420,7 +423,7 @@ footer{
     margin-left: 20px;
     
 }
-
+/*
 .social-media{
     width: 40%;
     display: flex;
@@ -443,7 +446,7 @@ footer{
     line-height: 60px;
     
 }
-
+*/
 .line{
     width: 100%;
     text-align: center;
@@ -456,10 +459,13 @@ footer{
     color: var(--background-color1);
     text-align: right; 
 }
+/*
 .social-media-icon:hover{
     background: var(--background-color1);                                                                               
     color:var(--red-color);
 }
+
+
 
 /* Breakpoints responsive */
 
