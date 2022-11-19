@@ -89,7 +89,7 @@ nav {
     height: 80px;
 
 }
-.nav .ibague a{
+.nav .ciudad a{
     color: var(--green-color);
     text-decoration: none;
     text-align: left;
@@ -107,20 +107,37 @@ nav {
     transition: ease-in-out 0.5s;
 }
 
-.nav .enlaces-header a {
+.nav .enlaces-header a{
     color: var(--green-color);
     text-decoration: none;
     margin-left: 20px;
     
 }
 
+.enlaces-header li{
+    text-decoration: none;
+    display: inline;
+}
+
+.enlaces-header .demos li{
+    display:grid;
+}
+
 .nav .enlaces-header a:hover{
     color: var(--red-color);
+}
+.enlaces-header li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
 }
 
 .nav .menu{
     text-decoration: none;
 }
+
+
+/*
 .hamburguer {
     width: 80px;
     height: 80px;
@@ -134,7 +151,7 @@ nav {
     font-size: 20px;
     line-height: 80px;
 }
-
+*/
 .contenido-header {
     
     width: 100%;
@@ -168,7 +185,7 @@ nav {
 .contenido-header p {
     font-size:x-large;
     margin-top: 14px;
-    color: var(--black-color);
+    color: var(--green-color);
     text-align: center;
 }
 
@@ -281,6 +298,27 @@ nav {
     padding-bottom: 20px;
 }
 
+/*DEMOS*/
+
+.demos {
+    background: var(--background-color2);
+    height: 600px;
+    display:flex;
+    justify-content: space-between;
+ 
+}
+
+.demos .yy a{
+    text-decoration: none;
+    display: block;
+    margin-right: 120px;
+    margin-top: 50px;
+    color: var(--green-color)
+}
+.demos>img {
+    width: 50px;
+    display: flex;   
+}
 
 
 /*CLIENTES */
@@ -300,7 +338,7 @@ nav {
     
 }
 
-.textos-clientes {
+.textos-clientes .textos-demos{
     margin: 0 0 0 30px;
 }
 
@@ -407,20 +445,18 @@ footer{
 }
 
 
-.contact-us{
-    width: 40%;
+.brand p{
+    
     color: var(--background-color1);
-}
-
-.brand{
     font-weight: 500;
     font-size: 30px;
     margin-left: 20px;
 }
+
 /*parrafo despues de la marca*/
-.brand+p{
+.contacto p{
     font-weight: 500;
-    margin-left: 20px;
+    margin-left: 50px;
     
 }
 /*
